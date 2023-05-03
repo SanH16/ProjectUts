@@ -30,7 +30,7 @@ public class AdapterPasar extends RecyclerView.Adapter<AdapterPasar.ViewHolderPa
 
     @NonNull
     @Override
-    public AdapterPasar.ViewHolderPasar onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ViewHolderPasar onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View varView = LayoutInflater.from(ctx).inflate(R.layout.list_item_pasar, parent, false);
         return new ViewHolderPasar(varView);
     }

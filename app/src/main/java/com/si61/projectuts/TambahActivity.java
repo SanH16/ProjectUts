@@ -19,7 +19,7 @@ public class TambahActivity extends AppCompatActivity {
 
         etNama = findViewById(R.id.et_nama);
         etKota = findViewById(R.id.et_kota);
-        etAlamat = findViewById(R.id.et_alamat_pasar);
+        etAlamat = findViewById(R.id.et_alamat);
         btnTambah = findViewById(R.id.btn_tambah);
 
         btnTambah.setOnClickListener(new View.OnClickListener() {

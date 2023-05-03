@@ -19,6 +19,12 @@
         android:layout_marginBottom="32dp"
         />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_pesan"/>
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -49,7 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
-            android:id="@+id/et_alamat_pasar"
+            android:id="@+id/et_alamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Alamat Pasar"
